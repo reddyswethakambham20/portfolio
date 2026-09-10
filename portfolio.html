@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jordan Blake — Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="mark">Jordan<span>.</span>Blake</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="footer-note">
+        Based in Austin, TX<br />Open to remote work
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero wrap">
+        <div>
+          <div class="eyebrow">Frontend Developer</div>
+          <h1>
+            I build interfaces that feel <em>inevitable</em>, not decorated.
+          </h1>
+          <p class="lede">
+            Four years turning product briefs into fast, accessible, quietly
+            opinionated web experiences — from design system to shipped code.
+          </p>
+          <div class="cta-row">
+            <a href="#projects" class="btn primary">View projects</a>
+            <a href="#contact" class="btn ghost">Get in touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="wrap">
+        <div class="section-head"><h2>About</h2></div>
+        <div class="about-grid">
+          <div>
+            <p>
+              I'm a frontend developer who started out fixing typos in a
+              university newspaper's WordPress theme and never really stopped
+              caring about the small details of a page. Today that means
+              component libraries, performance budgets, and the occasional
+              argument about line-height.
+            </p>
+            <p>
+              I work best on small, senior teams where design and engineering
+              sit close together — where "can we try it a different way" is a
+              normal Tuesday sentence, not a two-sprint request.
+            </p>
+          </div>
+          <div class="stats">
+            <div class="stat">
+              <b>4+</b><span>Years building for the web</span>
+            </div>
+            <div class="stat"><b>27</b><span>Shipped projects</span></div>
+            <div class="stat">
+              <b>98</b><span>Average Lighthouse score</span>
+            </div>
+            <div class="stat"><b>6</b><span>Design systems built</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="wrap">
+        <div class="section-head">
+          <h2>Selected projects</h2>
+          <span class="count">03 shown</span>
+        </div>
+        <div class="projects">
+          <div class="project">
+            <span class="idx">01</span>
+            <div>
+              <h3>Northwind — inventory dashboard</h3>
+              <p>
+                Rebuilt a spreadsheet-based warehouse tool as a real-time web
+                dashboard, cutting order-processing time by a third for a
+                40-person ops team.
+              </p>
+              <div class="tags">
+                <span>React</span><span>TypeScript</span><span>WebSockets</span>
+              </div>
+            </div>
+            <a href="#" class="link">View case study →</a>
+          </div>
+          <div class="project">
+            <span class="idx">02</span>
+            <div>
+              <h3>Fielder — field-notes app for ecologists</h3>
+              <p>
+                Offline-first PWA for recording species observations in the
+                field, syncing automatically once a connection is available
+                again.
+              </p>
+              <div class="tags">
+                <span>Vue</span><span>IndexedDB</span><span>PWA</span>
+              </div>
+            </div>
+            <a href="#" class="link">View case study →</a>
+          </div>
+          <div class="project">
+            <span class="idx">03</span>
+            <div>
+              <h3>Porthole — component library</h3>
+              <p>
+                An open-source, accessibility-first React component library
+                adopted by three internal product teams and 200+ GitHub stars.
+              </p>
+              <div class="tags">
+                <span>React</span><span>Storybook</span><span>a11y</span>
+              </div>
+            </div>
+            <a href="#" class="link">View on GitHub →</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="wrap">
+        <div class="section-head"><h2>Skills</h2></div>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <ul>
+              <li>JavaScript / TypeScript</li>
+              <li>HTML5 &amp; CSS3</li>
+              <li>Python (scripting)</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Frameworks &amp; tools</h3>
+            <ul>
+              <li>React, Vue</li>
+              <li>Node.js, Express</li>
+              <li>Git, Figma, Webpack</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Practice</h3>
+            <ul>
+              <li>Design systems</li>
+              <li>Accessibility (WCAG)</li>
+              <li>Performance tuning</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="wrap">
+        <div class="section-head"><h2>Resume</h2></div>
+        <div class="resume-box">
+          <p>
+            A one-page summary of my experience, education, and the tools I use
+            day to day.
+          </p>
+          <a href="#" class="btn primary" download>Download PDF</a>
+        </div>
+      </section>
+
+      <section id="contact" class="wrap">
+        <div class="contact-grid">
+          <div>
+            <h2>Let's work together.</h2>
+            <p>
+              The fastest way to reach me is email. I usually reply within a day
+              or two.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:hello@reddyswethakambham20.dev"
+                >hello@reddyswethakambham20.dev</a
+              >
+              <a href="#">github.com/reddyswethakambham20</a>
+              <a href="#">linkedin.com/in/reddyswetha-kambam</a>
+            </div>
+          </div>
+          <form id="contact-form">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn primary">Send message</button>
+            <p class="form-status" id="form-status"></p>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        © <span id="year"></span> Jordan Blake. Built with HTML, CSS &amp; a
+        little JS.
+      </footer>
+    </main>
+
+    <script src="portfolio.js"></script>
+  </body>
+</html>
